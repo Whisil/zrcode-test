@@ -99,17 +99,23 @@ header .header-bottom__info .learn-btn {
   -webkit-border-radius: 8px;
           border-radius: 8px;
   margin-right: 12px;
-  -webkit-transition: background-color .2s ease-in-out, color .2s ease-in-out;
-  -o-transition: background-color .2s ease-in-out, color .2s ease-in-out;
-  transition: background-color .2s ease-in-out, color .2s ease-in-out;
+  -webkit-transition: background-color .2s ease-in-out,
+ color .2s ease-in-out;
+  -o-transition: background-color .2s ease-in-out,
+ color .2s ease-in-out;
+  transition: background-color .2s ease-in-out,
+ color .2s ease-in-out;
 }
 
 header .header-bottom__info .learn-btn:hover {
   background-color: transparent;
   color: #fff;
-  -webkit-transition: background-color .2s ease-in-out, color .2s ease-in-out;
-  -o-transition: background-color .2s ease-in-out, color .2s ease-in-out;
-  transition: background-color .2s ease-in-out, color .2s ease-in-out;
+  -webkit-transition: background-color .2s ease-in-out,
+ color .2s ease-in-out;
+  -o-transition: background-color .2s ease-in-out,
+ color .2s ease-in-out;
+  transition: background-color .2s ease-in-out,
+ color .2s ease-in-out;
 }
 
 header .header-bottom__info .go-to-btn {
@@ -124,17 +130,23 @@ header .header-bottom__info .go-to-btn {
   -webkit-border-radius: 8px;
           border-radius: 8px;
   margin-right: 12px;
-  -webkit-transition: background-color .2s ease-in-out, color .2s ease-in-out;
-  -o-transition: background-color .2s ease-in-out, color .2s ease-in-out;
-  transition: background-color .2s ease-in-out, color .2s ease-in-out;
+  -webkit-transition: background-color .2s ease-in-out,
+ color .2s ease-in-out;
+  -o-transition: background-color .2s ease-in-out,
+ color .2s ease-in-out;
+  transition: background-color .2s ease-in-out,
+ color .2s ease-in-out;
 }
 
 header .header-bottom__info .go-to-btn:hover {
   background-color: #fff;
   color: #1e3c72;
-  -webkit-transition: background-color .2s ease-in-out, color .2s ease-in-out;
-  -o-transition: background-color .2s ease-in-out, color .2s ease-in-out;
-  transition: background-color .2s ease-in-out, color .2s ease-in-out;
+  -webkit-transition: background-color .2s ease-in-out,
+ color .2s ease-in-out;
+  -o-transition: background-color .2s ease-in-out,
+ color .2s ease-in-out;
+  transition: background-color .2s ease-in-out,
+ color .2s ease-in-out;
 }
 
 header .header-bottom .splide {
@@ -166,11 +178,17 @@ header .header-bottom .splide .splide__slide {
       -ms-transform: scale(80%);
           transform: scale(80%);
   opacity: 0.5;
-  -webkit-transition: opacity .2s ease-in-out, -webkit-transform .2s ease-in-out;
-  transition: opacity .2s ease-in-out, -webkit-transform .2s ease-in-out;
-  -o-transition: opacity .2s ease-in-out, transform .2s ease-in-out;
-  transition: opacity .2s ease-in-out, transform .2s ease-in-out;
-  transition: opacity .2s ease-in-out, transform .2s ease-in-out, -webkit-transform .2s ease-in-out;
+  -webkit-transition: opacity .2s ease-in-out,
+ -webkit-transform .2s ease-in-out;
+  transition: opacity .2s ease-in-out,
+ -webkit-transform .2s ease-in-out;
+  -o-transition: opacity .2s ease-in-out,
+ transform .2s ease-in-out;
+  transition: opacity .2s ease-in-out,
+ transform .2s ease-in-out;
+  transition: opacity .2s ease-in-out,
+ transform .2s ease-in-out,
+ -webkit-transform .2s ease-in-out;
   overflow: hidden !important;
 }
 
@@ -203,11 +221,17 @@ header .header-bottom .splide .is-active {
       -ms-transform: scale(100%);
           transform: scale(100%);
   opacity: 1;
-  -webkit-transition: opacity .2s ease-in-out, -webkit-transform .2s ease-in-out;
-  transition: opacity .2s ease-in-out, -webkit-transform .2s ease-in-out;
-  -o-transition: opacity .2s ease-in-out, transform .2s ease-in-out;
-  transition: opacity .2s ease-in-out, transform .2s ease-in-out;
-  transition: opacity .2s ease-in-out, transform .2s ease-in-out, -webkit-transform .2s ease-in-out;
+  -webkit-transition: opacity .2s ease-in-out,
+ -webkit-transform .2s ease-in-out;
+  transition: opacity .2s ease-in-out,
+ -webkit-transform .2s ease-in-out;
+  -o-transition: opacity .2s ease-in-out,
+ transform .2s ease-in-out;
+  transition: opacity .2s ease-in-out,
+ transform .2s ease-in-out;
+  transition: opacity .2s ease-in-out,
+ transform .2s ease-in-out,
+ -webkit-transform .2s ease-in-out;
 }
 
 header .header-bottom .splide .splide__pagination {
@@ -658,9 +682,9 @@ header .header-bottom .splide .splide__pagination li .is-active::after {
   position: absolute;
   z-index: -1;
   left: 23px;
-  -webkit-transform: scale(0%);
-      -ms-transform: scale(0%);
-          transform: scale(0%);
+  -webkit-transform: scale(0);
+      -ms-transform: scale(0);
+          transform: scale(0);
   -webkit-transition: -webkit-transform .2s ease-in-out;
   transition: -webkit-transform .2s ease-in-out;
   -o-transition: transform .2s ease-in-out;
@@ -709,9 +733,9 @@ header .header-bottom .splide .splide__pagination li .is-active::after {
 }
 
 .coin-selection .owl-carousel__item:hover {
-  -webkit-transform: scale(115%);
-      -ms-transform: scale(115%);
-          transform: scale(115%);
+  -webkit-transform: scale(1.15);
+      -ms-transform: scale(1.15);
+          transform: scale(1.15);
   -webkit-transition: -webkit-transform .2s ease-in-out;
   transition: -webkit-transform .2s ease-in-out;
   -o-transition: transform .2s ease-in-out;
@@ -736,9 +760,9 @@ header .header-bottom .splide .splide__pagination li .is-active::after {
 }
 
 .coin-selection .owl-carousel__item:hover .coin-bg-active {
-  -webkit-transform: scale(47%);
-      -ms-transform: scale(47%);
-          transform: scale(47%);
+  -webkit-transform: scale(0.47);
+      -ms-transform: scale(0.47);
+          transform: scale(0.47);
   -webkit-transition: -webkit-transform .2s ease-in-out;
   transition: -webkit-transform .2s ease-in-out;
   -o-transition: transform .2s ease-in-out;
@@ -1046,9 +1070,9 @@ header .header-bottom .splide .splide__pagination li .is-active::after {
   position: absolute;
   z-index: -1;
   left: 23px;
-  -webkit-transform: scale(0%);
-      -ms-transform: scale(0%);
-          transform: scale(0%);
+  -webkit-transform: scale(0);
+      -ms-transform: scale(0);
+          transform: scale(0);
   -webkit-transition: -webkit-transform .2s ease-in-out;
   transition: -webkit-transform .2s ease-in-out;
   -o-transition: transform .2s ease-in-out;
@@ -1097,9 +1121,9 @@ header .header-bottom .splide .splide__pagination li .is-active::after {
 }
 
 .cost-selection .owl-carousel__item:hover {
-  -webkit-transform: scale(115%);
-      -ms-transform: scale(115%);
-          transform: scale(115%);
+  -webkit-transform: scale(1.15);
+      -ms-transform: scale(1.15);
+          transform: scale(1.15);
   -webkit-transition: -webkit-transform .2s ease-in-out;
   transition: -webkit-transform .2s ease-in-out;
   -o-transition: transform .2s ease-in-out;
@@ -1124,9 +1148,9 @@ header .header-bottom .splide .splide__pagination li .is-active::after {
 }
 
 .cost-selection .owl-carousel__item:hover .coin-bg-active {
-  -webkit-transform: scale(47%);
-      -ms-transform: scale(47%);
-          transform: scale(47%);
+  -webkit-transform: scale(0.47);
+      -ms-transform: scale(0.47);
+          transform: scale(0.47);
   -webkit-transition: -webkit-transform .2s ease-in-out;
   transition: -webkit-transform .2s ease-in-out;
   -o-transition: transform .2s ease-in-out;
@@ -1789,7 +1813,7 @@ header .header-bottom .splide .splide__pagination li .is-active::after {
 }
 
 .touch .touch__socials_item:hover {
-  -webkit-transform: scale(103%);
+  -webkit-transform: scale(103%) !important;
       -ms-transform: scale(103%);
           transform: scale(103%);
   -webkit-transition: -webkit-transform .3s ease-in-out;

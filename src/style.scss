@@ -115,7 +115,7 @@ $cDark: rgb(30, 60 ,114);
                 position: absolute;
                 z-index: -1;
                 left: 23px;
-                transform: scale(0%);
+                transform: scale(0);
                 transition: transform .2s ease-in-out;
             }
             .coin{
@@ -155,7 +155,7 @@ $cDark: rgb(30, 60 ,114);
             }
 
             &:hover{
-                transform: scale(115%);
+                transform: scale(1.15);
                 transition: transform .2s ease-in-out;
 
                 .coin{
@@ -168,7 +168,7 @@ $cDark: rgb(30, 60 ,114);
                     }
                 }
                 .coin-bg-active{
-                    transform: scale(47%);
+                    transform: scale(0.47);
                     transition: transform .2s ease-in-out;
                 }
             }

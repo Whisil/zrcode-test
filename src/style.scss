@@ -291,6 +291,7 @@ $cDark: rgb(30, 60 ,114);
                     }
                 }
                 img{
+                    transform: scale(1);
                     transition: transform .2s ease-in-out;
                 }
             }
@@ -618,7 +619,12 @@ header{
                         transform: translateX(-60px) !important;
                     }
                 }
-
+                .splide__slide{
+                    width: 280px !important;
+                    img{
+                        width: 100% !important;
+                    }
+                }
                 .splide__pagination{
                     left: 53%;
                     p::after{
@@ -716,6 +722,11 @@ header{
         }
         .info-card__bg{
             display: none;
+        }
+    }
+    @media screen and (max-width: 576px){
+        .info-card{
+            padding: 25px;
         }
     }
 }
@@ -1096,6 +1107,7 @@ header{
                     }
                 }
                 img{
+                    transform: scale(1);
                     transition: transform .2s ease-in-out;
                 }
             }
@@ -1492,6 +1504,7 @@ header{
         justify-content: space-between;
 
         &_item{
+            transform: scale(1);
             padding: 16px 21px 15px 18px;
             background: linear-gradient(90deg, #3B529E 0%, #CE51CE 100%);
             border-radius: 100px;

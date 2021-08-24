@@ -175,3 +175,9 @@
     }
 
 }
+
+@media(max-width: 992px){
+    .mobile-nav_btn{
+        width: 13%;
+    }
+}
